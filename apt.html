@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+//Thanks to http://stackoverflow.com/questions/439463/how-to-get-get-and-post-variables-with-jquery#answer-439578
+var $_GET = {};
+
+document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
+    function decode(s) {
+        return decodeURIComponent(s.split("+").join(" "));
+    }
+
+    $_GET[decode(arguments[1])] = decode(arguments[2]);
+});
+var appname = $_GET["name"];
+window.location = "apt:" + appname;
+history.back();
+</script>
+</head>
+<body>
+Please wait!
+</body>
+</html>
