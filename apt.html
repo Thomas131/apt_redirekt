@@ -11,9 +11,16 @@ document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
 
     $_GET[decode(arguments[1])] = decode(arguments[2]);
 });
-var appname = $_GET["name"];
-window.location = "apt:" + appname;
-history.back();
+
+window.onload=function(){
+	if($_GET["name"]!=undefined && $_GET["name"]!="")
+		window.location = "apt:" + $_GET["name"];
+	else
+		getElementsByTagName("body")[0].innerHTML = "flase GET Variable/Variables. Right: ?name=gedit";
+	if(history.length != 1){
+		history.back();
+	}
+};
 </script>
 </head>
 <body>
