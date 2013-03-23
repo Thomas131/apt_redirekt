@@ -10,4 +10,5 @@ or by downloading [https://github.com/Thomas131/apt_redirekt/archive/master.zip]
 I gave up the php-version.
 
 How does the code work?:
-![alt text](http://thomas131.github.com/apt_redirekt/apt.html.png How the code works)
+------------------------
+![image](http://thomas131.github.com/apt_redirekt/apt.html.png "How the code works")
