@@ -12,12 +12,12 @@ document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
     $_GET[decode(arguments[1])] = decode(arguments[2]);
 });
 
-if($_GET["name"]!=undefined && $_GET["name"]!="")
+if($_GET["name"]!=undefined && $_GET["name"]!="") {
 	window.location = "apt:" + $_GET["name"];
 	if(history.length != 1){
 		history.back();
 	}
-else
+}else
 	getElementsByTagName("body")[0].innerHTML = "flase GET Variable/Variables. Right: ?name=gedit";
 </script>
 </head>
