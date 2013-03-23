@@ -7,4 +7,4 @@ git clone https://github.com/Thomas131/apt_redirekt.git
 ```
 or by downloading [https://github.com/Thomas131/apt_redirekt/archive/master.zip](https://github.com/Thomas131/apt_redirekt/archive/master.zip). Than the URL's will look different.
 
-You can use the php-version from my server: https://thomas13.aquarius.uberspace.de/apt_redirekt/apt.php?name=gedit
+You can use the php-version from my server: https://thomas13.aquarius.uberspace.de/apt_redirekt/apt.html?name=gedit
