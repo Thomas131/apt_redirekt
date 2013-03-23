@@ -1,7 +1,7 @@
 <?php
 if(isset($_GET["name"]) && $_GET["name"] != ""){
 	header('Location: apt:'.$_GET["name"]);
-	//header('Location: javascript:history.back();'); ?>
+	if(isset($_SERVER['HTTP_REFERER'])) { header("Location: " . $_SERVER['HTTP_REFERER']); exit; } ?>
 	<script>
 			if(history.length != 1){
 			history.back();
