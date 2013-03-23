@@ -8,3 +8,6 @@ git clone https://github.com/Thomas131/apt_redirekt.git
 or by downloading [https://github.com/Thomas131/apt_redirekt/archive/master.zip](https://github.com/Thomas131/apt_redirekt/archive/master.zip). Than the URL's will look different.
 
 I gave up the php-version.
+
+How does the code work?:
+![alt text](http://thomas131.github.com/apt_redirekt/apt.html.png How the code works)
