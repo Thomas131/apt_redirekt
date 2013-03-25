@@ -18,10 +18,10 @@ if($_GET["name"]!=undefined && $_GET["name"]!="") {
 		history.back();
 	}
 }else
-	getElementsByTagName("body")[0].innerHTML = "flase GET Variable/Variables. Right: ?name=gedit";
+	window.onload = function () { document.getElementsByTagName("body")[0].innerHTML = "flase GET Variable/Variables. Right: ?name=gedit"; };
 </script>
 </head>
-<body>
+<body id="body">
 Please wait!
 </body>
 </html>
