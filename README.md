@@ -5,7 +5,7 @@ It's a redirektor for apt-urls. If a CMS doesn't support apturl's you can use th
 ```sh
 git clone https://github.com/Thomas131/apt_redirekt.git
 ```
-or by downloading [https://github.com/Thomas131/apt_redirekt/archive/master.zip](https://github.com/Thomas131/apt_redirekt/archive/master.zip). Than the URL's will look different.
+or by downloading [https://github.com/Thomas131/apt_redirekt/archive/master.zip](https://github.com/Thomas131/apt_redirekt/archive/master.zip). Then the URL's will look different.
 
 How does the code work?:
 ------------------------
